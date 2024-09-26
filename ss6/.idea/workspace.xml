@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63590dd6-d113-4c7d-b838-387e5793c7e4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taodanhsach.html" afterDir="false" />
+    <list default="true" id="4c5fbc72-fbd2-49d3-9ae3-c43ec3b8c69f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/hienthidaura.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../demo/formnangcao.html" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/formnangcao.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ss4/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +22,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -37,10 +37,10 @@
   }
 }</component>
   <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 0
+  &quot;associatedIndex&quot;: 4
 }</component>
-  <component name="ProjectId" id="2mW1MTTVCvHjJAFpDi3Xqx4OWV6" />
+  <component name="ProjectId" id="2mW66tie8KLoNrw6XyfgLwvC20P" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -49,7 +49,8 @@
   &quot;keyToString&quot;: {
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Codegym/module1/ss6&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -68,16 +69,16 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="63590dd6-d113-4c7d-b838-387e5793c7e4" name="Changes" comment="" />
-      <created>1727177469493</created>
+      <changelist id="4c5fbc72-fbd2-49d3-9ae3-c43ec3b8c69f" name="Changes" comment="" />
+      <created>1727179812751</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1727177469493</updated>
-      <workItem from="1727177470577" duration="837000" />
-      <workItem from="1727179224141" duration="11000" />
-      <workItem from="1727179329741" duration="40000" />
-      <workItem from="1727185839131" duration="8000" />
-      <workItem from="1727350138105" duration="5000" />
+      <updated>1727179812751</updated>
+      <workItem from="1727179813802" duration="305000" />
+      <workItem from="1727180159342" duration="7000" />
+      <workItem from="1727180179176" duration="42000" />
+      <workItem from="1727350131369" duration="6000" />
+      <workItem from="1727350144429" duration="39000" />
     </task>
     <servers />
   </component>
