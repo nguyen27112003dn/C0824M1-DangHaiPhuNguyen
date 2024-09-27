@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+</head>
+<body>
+<h1>Caculator</h1>
+<input type="number" id="number1">
+<input type="number" id="number2">
+<br>
+<br>
+
+<button onclick="Addition()">Addition(+)</button>
+<button onclick="Subtraction()">Subtraction(-)</button>
+<button onclick="Multiplication()">Multiplication(X)</button>
+<button onclick="Division()">Division</button>
+
+<p id="result"></p>
+
+<script>  
+    function getValue() {
+        const number1 = parseFloat(document.getElementById('number1').value);
+        const number2 = parseFloat(document.getElementById('number2').value);
+        return {number1, number2};
+    }
+
+    function Addition() {
+        const {number1, number2} = getValue();
+        const result = number1 + number2
+        document.getElementById('result').innerText = "Result: " + result + " ";
+    }
+
+    function Subtraction() {
+        const {number1, number2} = getValue();
+        const result = number1 - number2
+        document.getElementById('result').innerText = "Result: " + result + " ";
+    }
+
+    function Multiplication() {
+        const {number1, number2} = getValue();
+        const result = number1 * number2
+        document.getElementById('result').innerText = "Result: " + result + " ";
+    }
+
+    function Division() {
+        const {number1, number2} = getValue();
+        if (number2 === 0) {
+            document.getElementById('result').innerText = "Lỗi";
+        } else {
+            const result = number1 / number2
+            document.getElementById('result').innerText = "Result: " + result + " ";
+        }
+    }
+</script>
+</body>
+</html>
