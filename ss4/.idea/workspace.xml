@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="63590dd6-d113-4c7d-b838-387e5793c7e4" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../ss10/demo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CVcanhan.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taodanhsach.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +24,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -78,7 +79,7 @@
       <workItem from="1727179329741" duration="40000" />
       <workItem from="1727185839131" duration="8000" />
       <workItem from="1727350138105" duration="5000" />
-      <workItem from="1727418144669" duration="940000" />
+      <workItem from="1727418144669" duration="552000" />
     </task>
     <servers />
   </component>
