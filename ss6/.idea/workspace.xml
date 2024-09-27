@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c5fbc72-fbd2-49d3-9ae3-c43ec3b8c69f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hienthidaura.html" beforeDir="false" afterPath="$PROJECT_DIR$/hienthidaura.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss10/demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ss4/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,21 +45,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.hienthidaura.html.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/Codegym/module1/ss7",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.hienthidaura.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Codegym/module1/ss7&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="hienthidaura.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ss6/hienthidaura.html" useBuiltInWebServerPort="true">
       <method v="2" />
@@ -90,6 +90,7 @@
       <workItem from="1727180179176" duration="42000" />
       <workItem from="1727350131369" duration="6000" />
       <workItem from="1727350144429" duration="840000" />
+      <workItem from="1727419102030" duration="4000" />
     </task>
     <servers />
   </component>
