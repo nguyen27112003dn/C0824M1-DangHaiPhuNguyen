@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+      let num = 2;
+      let count = 0;
+      while (count < 100) {
+        let isPrime = true;
+        for (let i = 2; i <= Math.sqrt(num); i++){
+          if (num % i === 0) {
+            isPrime = false;
+            break;
+          }
+        }
+        if (isPrime){
+          document.write(`${num}là số nguyên tố`)
+          count++;
+        }
+        num++;
+      }
+    </script>
+</body>
+</html>
