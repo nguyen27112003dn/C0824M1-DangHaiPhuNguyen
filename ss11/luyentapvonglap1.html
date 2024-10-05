@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //Bài 1
+    // for (let i = 1; i < 100; i++) {
+    //     alert(i)
+    //     if (i === 99) {
+    //         alert("Đã hoàn thành")
+    //     }
+    // }
+    //Bài 2
+    // let temperature = prompt("Vui lòng nhập nhiệt độ hiện tại:");
+    // while (temperature > 100 || temperature < 20) {
+    //     if (temperature > 100) {
+    //         alert("Nhiệt độ quá cao! Vui lòng giảm nhiệt độ.");
+    //     } else if (temperature < 20) {
+    //         alert("Nhiệt độ quá thấp! Vui lòng tăng nhiệt độ.");
+    //     }
+    //     temperature = prompt("Vui lòng nhập lại.")
+    // }
+    // alert("Nhiệt độ ổn định.")
+    //Bài 3
+    // let fibon = [0, 1];
+    // for (let i = 2; i <= 20; i++) {
+    //     fibon[i] = fibon[i - 1] + fibon[i - 2];
+    // }
+    // document.write(fibon + "" + "<br>");
+    //Bài 5
+    // let sum = 0;
+    // for (let i = 0; i < 20; i++) {
+    //     sum += fibon[i];
+    // }
+    // document.write("Sum = " + sum);
+    //Bài 4
+    // let fibon = [0, 1];
+    // let i = 2;
+    //
+    // while (true) {
+    //     fibon[i] = fibon[i - 1] + fibon[i - 2];
+    //     if (fibon[i] % 5 === 0) {
+    //         console.log("Số đầu tiên trong dãy Fibonacci chia hết cho 5 là:", fibon[i]);
+    //         break;
+    //     }
+    //     i++;
+    // }
+    //Bài 6
+    // let total = [];
+    // let num = 1;
+    // let sum = 0;
+    // while (total.length <= 30) {
+    //     if (num % 7 === 0) {
+    //         total.push(num);
+    //         sum += num;
+    //     }
+    //     num++;
+    // }
+    // document.write(total + "<br>");
+    // document.write("Sum = " + sum);
+    //Bài 7
+    for (let i = 1; i <= 100; i++) {
+        if (i % 3 === 0 && i % 5 === 0) {
+            alert("FizzBuzz");
+        } else if (i % 3 === 0) {
+            alert("Fizz");
+        } else if (i % 5 === 0) {
+            alert("Buzz");
+        } else {
+            alert(i);
+        }
+    }
+
+</script>
+</body>
+</html>
