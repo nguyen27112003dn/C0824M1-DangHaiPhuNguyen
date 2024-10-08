@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Từ điển</title>
+</head>
+<body>
+<label>Nhập từ: </label>
+<input type="text" id="wordInput">
+<button onclick="translate()">Dịch</button>
+<p id="result"></p>
+<script>
+    var englishWords = ["apple", "banana", "cat", "dog", "book"];
+    var vietnameseWords = ["táo", "chuối", "mèo", "chó", "sách"];
+
+    function translate() {
+        var inputWord = document.getElementById("wordInput").value.toLowerCase();
+        var index = englishWords.indexOf(inputWord);
+        if (index !== -1) {
+            document.getElementById("result").innerHTML = "Kết quả: " + vietnameseWords[index];
+        } else {
+            document.getElementById("result").innerHTML = "Kết quả: Không tìm thấy từ '" + inputWord + "'";
+        }
+    }
+</script>
+</body>
+</html>
