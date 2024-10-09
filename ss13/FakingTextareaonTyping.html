@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<center>
+    <h2>Type anthing slowly</h2>
+    <textarea id="input"></textarea>
+</center>
+<script>
+    const fixedText = "Mệt mỏi thật sự :((((";
+    let index = 0;
+    document.getElementById("input").addEventListener("keydown", function (event) {
+        if (index < fixedText.length) {
+            document.getElementById("input").value += fixedText[index];
+            index++;
+        } else {
+            index = 0;
+            document.getElementById("input").value = "";
+        }
+        event.preventDefault();
+    });
+</script>
+</body>
+</html>
