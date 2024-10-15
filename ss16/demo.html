@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class Person {
+        id;
+        name;
+        address;
+        phone;
+        dob;
+
+        constructor(id, name, address, phone, dob) {
+            this.id = id;
+            this.name = name;
+            this.address = address;
+            this.phone = phone;
+            this.dob = dob;
+        }
+    }
+
+    class Student extends Person {
+        classroom;
+
+        constructor(id, name, address, phone, dob, classroom) {
+            super(id, name, address, phone, dob);
+            this.classroom = classroom;
+        }
+    }
+
+    let studen = new Student(1, "Nguyên", "ĐàNẵng", "123456789", "27/11/2003", "Lớp1");
+    console.log(studen)
+</script>
+</body>
+</html>
