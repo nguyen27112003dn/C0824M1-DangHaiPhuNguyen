@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let m = 234;
+    let sum = 0;
+    let product = 1;
+    let mString = m.toString();
+    for (let i = 0; i < mString.length; i++) {
+        let digit = parseInt(mString[i]);
+        sum += digit;
+        product *= digit;
+    }
+    console.log(sum)
+    console.log(product)
+</script>
+</body>
+</html>
