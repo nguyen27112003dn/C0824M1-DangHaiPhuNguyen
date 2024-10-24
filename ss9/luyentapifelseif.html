@@ -46,7 +46,45 @@
     //     alert(c + " là số lớn nhất")
     // }
     //Bài 5
+    // let diemKiemTra = 8;
+    // let diemGiuaKy = 7;
+    // let diemCuoiKy = 9;
+    // let diemTrungBinh = (diemKiemTra * 0.3) + (diemGiuaKy * 0.3) + (diemCuoiKy * 0.4);
+    // if (diemTrungBinh >= 8.5) {
+    //     console.log("Học lực: Giỏi");
+    // } else if (diemTrungBinh >= 7.0) {
+    //     console.log("Học lực: Khá");
+    // } else if (diemTrungBinh >= 5.5) {
+    //     console.log("Học lực: Trung bình");
+    // } else if (diemTrungBinh >= 4.0) {
+    //     console.log("Học lực: Yếu");
+    // } else {
+    //     console.log("Học lực: Kém");
+    // }
+    //Bài 6
+    // let doanhSo = 25000000;
+    // let hoaHong;
+    // if (doanhSo <= 10000000) {
+    //     hoaHong = doanhSo * 0.05;
+    // } else if (doanhSo <= 20000000) {
+    //     hoaHong = doanhSo * 0.07;
+    // } else if (doanhSo <= 50000000) {
+    //     hoaHong = doanhSo * 0.1;
+    // } else {
+    //     hoaHong = doanhSo * 0.15;
+    // }
+    // console.log("Hoa hồng nhận được: " + hoaHong + " VND");
+    //Bài 7
+    let soPhut = 750;
+    let cuocThueBao = 50000;
+    let cuocDienThoai;
 
+    if (soPhut <= 600) {
+        cuocDienThoai = cuocThueBao + (soPhut * 600);
+    } else if (soPhut > 600) {
+        cuocDienThoai = cuocThueBao + (600 * 600) + ((soPhut - 600) * 400);
+    }
+    console.log("Cước điện thoại phải trả: " + cuocDienThoai + " VND");
 </script>
 </body>
 </html>
